@@ -42,7 +42,7 @@ jobs:
       env:
         go_os: "linux,darwin"
         go_arch: "amd64"
-        github_repo: "jbrunetext/terraform-provider-hashicup"
+        github_repo: "oliverlucas85/terraform-provider-bca"
         gpg_public_key: ${{ secrets.GPG_PUBLIC_KEY }}
         github_token: ${{ secrets.SECRETGITHUBTOKEN }}
         gpg_keyid: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
